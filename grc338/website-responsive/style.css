@@ -151,6 +151,7 @@ address {
 article {
 	background-color: rgb(0, 255, 255);
 	margin: auto auto;
+	max-width: 35em;
 }
 
 footer p {
