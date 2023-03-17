@@ -187,13 +187,12 @@ footer p {
 
 @media screen and (min-width: 60em) {
 	article {
-		margin: auto;
-		max-width: 40rem;	
+		margin: 0% 25%;
 	}
 	main.menu ul {
 		display: grid;
 		grid-template-columns: 50% 50%;
-		grid-column-gap: 6rem;
+		grid-column-gap: 9rem;
 		margin: 0 9rem 3rem 0;
 	}
 	nav ul li {
