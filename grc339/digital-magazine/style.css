@@ -1,0 +1,103 @@
+/*CSS document*/
+
+body {
+    font-family: "muli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    width: 16rem;
+    margin: auto;
+    padding-bottom: 1rem;
+}
+
+h3{
+    font-size: 1.3rem;
+    margin-bottom: 0.2rem;
+    font-family: "operetta-12", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(61, 96, 123);
+}
+
+h2{
+    font-size: 1.3rem;
+    padding-top: 1rem;
+    margin-bottom: 0.2rem;
+    font-family: "operetta-12", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(61, 96, 123);  
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+    padding: 1em;
+}
+
+section.mainstory{
+    padding-bottom: 2rem;
+}
+
+section.imageteaser{
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+
+section.noimageteaser{
+    padding-bottom: 1rem;
+}
+
+figure {
+    margin: 0;
+}
+
+
+img {
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+li{
+    display: inline;
+    padding: 0rem .75rem 0rem 0rem;
+    font-family: "operetta-12", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(47,41,42);
+ }
+
+ a{
+    text-decoration: none;
+    color:rgb(9, 43, 76);
+}
+
+a:hover {
+    color: rgb(205,66,45);
+}
+
+nav{
+    padding-top: 0.5rem;
+    border-top: 1px solid rgb(61, 96, 123);
+}
+
+p{
+    color: rgb(47,41,42);
+    line-height: 1.5;
+}
+
+footer{
+    text-align: left;
+    margin-bottom: 0.2rem;
+    font-family: "operetta-12", serif;
+    font-weight: 600;
+    font-style: normal;
+    color:rgb(47,41,42);
+}
