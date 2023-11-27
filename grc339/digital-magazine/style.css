@@ -36,7 +36,6 @@ div.container {
     max-width: 40rem;
     margin: auto;
     padding: 2rem;
-    background-color: #fafafa;
 }
 
 section.mainstory{
@@ -172,7 +171,7 @@ input:nth-of-type(8):checked ~ main figure:nth-of-type(8){
 
 /* Newsletter */
 div.newsletter{
-    max-width: 60rem;
+    max-width: 60em;
     margin: auto;
 }
 
@@ -309,4 +308,82 @@ form.subscribe h2{
     aside{
         grid-column: 2/3;
     }
+}
+
+@media screen and (prefers-color-scheme:dark) {
+
+    body {
+        background-color: #333;
+        color: #F6F1E2;
+    }
+
+    h1{
+        background-image: url("clutchlogo-alt.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    h2, h3{
+        color: #92b1c9;
+    }
+
+    a{
+        color: #F6F1E2; 
+    }
+
+    figcaption{
+        color: #F6F1E2;  
+    }
+
+    a:hover {
+        color: #E19696; 
+    }
+
+    p{
+        color: #F6F1E2;  
+    }
+
+    section.personal-information ul li label{
+        color: #E19696; 
+    }
+
+    section.preferences ul li label {
+        color: #E19696; 
+    }
+
+    section.mainstory{
+        padding-bottom: 2rem;
+        border-bottom-style:solid;
+        border-color: #92b1c9;
+    }
+    
+    section.imageteaser{
+        padding-bottom: 1rem;
+        border-bottom-style:solid;
+        border-color: #92b1c9;
+    }
+
+    section.mainstory{
+        padding-bottom: 2rem;
+        border-bottom-style:solid;
+        border-color: #92b1c9;
+    }
+    
+    section.imageteaser{
+        padding-bottom: 1rem;
+        border-bottom-style:solid;
+        border-color: #92b1c9;
+    }
+    
+    section.noimageteaser{
+        border-bottom: 3px;
+        border-bottom-style:solid;
+        border-color:#92b1c9;
+        padding-bottom: 0.5rem;
+    }
+
+    h1 img {
+        opacity: 0;
+    }
+
 }
