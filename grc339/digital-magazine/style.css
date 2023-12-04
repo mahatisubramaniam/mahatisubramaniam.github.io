@@ -120,6 +120,11 @@ footer{
     grid-column: 1/3;
 }
 
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
 /* Photo Gallery */
 div.gallery {
     max-width: 60em;
@@ -175,8 +180,18 @@ div.newsletter{
     margin: auto;
 }
 
+form.subscribe{
+    grid-row: 1/3;
+    grid-column: 1/3;
+}
+
 header {
     margin: auto;
+}
+
+section.personal-information{
+    padding-bottom: 2rem;
+    margin: 0;
 }
 
 section.personal-information ul li{
@@ -189,24 +204,8 @@ section.personal-information ul li input[type="text"],
 section ul li input[type="name"],
 section ul li input[type="email"],
 section ul li select {
-	flex: 0 0 28rem;
+	flex: 0 0 23rem;
 	box-sizing: border-box;
-}
-
-form.subscribe{
-    grid-row: 1/4;
-    grid-column: 1/4;
-}
-
-section.personal-information{
-	padding-bottom: 2rem;
-    margin: 0;
-}
-
-section.personal-information ul li{
-	display: flex;
-	flex-wrap: wrap;
-	margin-bottom: 1rem; 
 }
 
 section.personal-information ul li label{
@@ -228,7 +227,6 @@ section.preferences ul li label{
 section.preferences{
     margin: 0;
     padding-bottom: 1rem;
-    flex-wrap: wrap;
 }
 
 section.inquiries{
@@ -236,21 +234,20 @@ section.inquiries{
 }
 
 section.submit{
-    margin: 0 0 2rem 0;
+    margin: 1em 0 2em 0;
 }
 
 textarea{
     box-sizing: border-box;
     display: flex;
-    width: 55%;
+    width: 45%;
     padding-bottom: 2rem;
-    padding-top: 2rem;
     font-family: "muli", sans-serif;
 }
 
 button{
     margin-top: 2em;
-    border-color: rgb(61, 96, 123);
+    border-color: rgb(205,66,45);
 }
 
 form.subscribe h2{
@@ -349,6 +346,11 @@ form.subscribe h2{
 
     section.preferences ul li label {
         color: #E19696; 
+    }
+
+    button{
+        margin-top: 2em;
+        border-color: #E19696; 
     }
 
     section.mainstory{
